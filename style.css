@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    margin-left: 125px;
+}
+
+.tekst {
+    padding-left: 100px;
+}
+
+.h3-tekst {
+    margin-bottom: 0;
+}
+
+.p-tekst {
+    max-width: 400px;
+    margin-top: 5px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+img {
+    width: 175px;
+    border-radius: 5px;
+}
+
+.bilde1 span {
+    writing-mode: vertical-lr;
+    padding-bottom: 110px;
+}
+.bilde1 p {
+    margin: 0;
+}
+
+.bilde2 {
+    margin-top: 55px;
+}
+.bilde2 span {
+    writing-mode: vertical-lr;
+    padding-bottom: 138px;
+}
+.bilde2 p {
+    margin: 0;
+}
+
+.bilde3 span {
+    writing-mode: vertical-lr;
+    padding-bottom: 162px;
+}
+.bilde3 p {
+    margin: 0;
+}
+
+.bilde4 {
+    margin-top: 55px;
+}
+.bilde4 span {
+    writing-mode: vertical-lr;
+    padding-bottom: 125px;
+}
+.bilde4 p {
+    margin: 0;
+}
+
+.bilde5 span{
+    writing-mode: vertical-lr;
+    padding-bottom: 220px;
+}
+.bilde5 p {
+    margin: 0;
+}
+
+.bilde6 span {
+    writing-mode: vertical-lr;
+    padding-bottom: 115px;
+}
+.bilde6 p {
+    margin: 0;
+}
+
+.footer {
+    background-color: #ccc;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+@media screen, (max-width: 850px) {
+    .tekst {
+        max-width: 100%;
+    }
+}
+
+@media screen, (max-width: 804px) {
+    .container2 {
+        columns: 40px;
+    }
+}
+
+@media screen, (max-width: 500px) {
+    .tekst .footer {
+        width: 100%;
+    }
+}
